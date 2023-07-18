@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #222;
+    font-family :Arial, Helvetica, sans-serif ;
+}
+
+.all{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.all .head{
+    margin-top: 60px;
+}
+.all .head h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.all .head h2 span{
+    color: aqua;
+}
+.all .head p{
+    font-size: 40px;
+    color: brown;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    caret-color: aqua;
+    background-color: black;
+    color: wheat ;
+}
+input:hover{
+    transform: scale(1.06);
+}
+
+
+.flex-inputs{
+    display: flex;
+    gap: 1%;
+}
+.flex-inputs input{
+    width: 20%;
+}
+
+
+button{
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s linear;
+    font-style: italic;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgba(83, 43, 226, 0.644);
+    letter-spacing: px;
+}
+
+#create{
+    width: 100%;
+}
+
+.flex-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-button button{
+    padding: 0 5%;
+    text-transform: none;
+}
+
+#total{
+    background-color:rgba(255, 0, 0, 0.438);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    color: wheat;
+    margin: 10px 0;
+    border-radius: 4px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+#total::before{
+    content: "total =";
+margin-right: 6px;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+font-style: italic;
+}
+
+table{
+    width: 100%;
+    margin-top: 25px;
+}
+tr{
+color: white;
+}
+
+tr th{
+    text-transform: uppercase;
+}
+
+tr td button{
+    text-transform: none;
+    padding: 0;
+    margin-top: 10px;
+    padding: 13px;
+}
+
+
+#deleteAll button {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+
